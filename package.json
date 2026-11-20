@@ -7,13 +7,13 @@
     "dev": "node server.mjs --dev",
     "build": "next build",
     "start": "node server.mjs",
-    "test": "node --test test/receipt.test.mjs test/migration.test.mjs"
+    "test": "node --test test/receipt.test.mjs test/migration.test.mjs test/postgrest.test.mjs"
   },
   "dependencies": {
     "next": "^16.4.6",
-    "pg": "8.18.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "server-only": "0.0.1"
   },
   "devDependencies": {
     "@electric-sql/pglite": "^0.5.17",
