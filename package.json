@@ -1,0 +1,24 @@
+{
+  "name": "alpine-slalom-leaderboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs --dev",
+    "build": "next build",
+    "start": "node server.mjs",
+    "test": "node --test test/receipt.test.mjs test/migration.test.mjs"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "pg": "8.18.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.17",
+    "jsqr": "1.4.0",
+    "playwright": "^1.65.1",
+    "pngjs": "7.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.log
+
+test-evidence/
+coverage/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.apk
+*.exe
